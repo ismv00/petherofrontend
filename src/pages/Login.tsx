@@ -1,18 +1,7 @@
-import background from "../assets/background.jpeg";
-
 export function Login() {
   return (
-    <div
-      style={{
-        backgroundImage: `url(${background})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        width: "100vw",
-        height: "100vh",
-      }}
-    >
-      <div>Login</div>
+    <div className=" w-[500px] h-[350px] bg-white bg-opacity-50 rounded-2xl mx-auto">
+      <form></form>
     </div>
   );
 }

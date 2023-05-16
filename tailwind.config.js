@@ -6,6 +6,7 @@ export default {
     extend: {
       colors: {
         background: "#E9E9E9",
+        hero: "FFBD59",
       },
     },
   },
