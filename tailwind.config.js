@@ -2,7 +2,9 @@
 export default {
   content: ["./src/**/*.tsx", "./index.html"],
   theme: {
-    //dentro do extends coloca a cor de fundo
+    fontFamily: {
+      sans: ["Poppins", "Arial", "sans-serif"],
+    },
     extend: {
       colors: {
         background: "#E9E9E9",

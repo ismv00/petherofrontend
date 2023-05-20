@@ -14,20 +14,23 @@ export default function Home() {
 
       <div className="text-center">
         <h1 className=" text-3xl text-center p-6">
-          Todo animal de estimação merece um lar amoroso. Adote um animal de
-          estimação hoje
+          Todo animal de estimação merece um lar amoroso. Adote um pet de
+          estimação hoje!
         </h1>
         <p className=" text-lg text-center p-6">
-          Navegue pelos nossos animais disponíveis e saiba mais sobre o processo
-          de adoção. Juntos, podemos resgatar, reabilitar e realojar animais de
-          estimação necessitados. Obrigado por apoiar nossa missão de levar
-          alegria às famílias por meio da adoção de animais de estimação.
+          Navegue pelos nossos bichinhos disponíveis e saiba mais sobre o
+          processo de adoção. Juntos, podemos resgatar, reabilitar e realojar
+          animais de estimação necessitados. Obrigado por apoiar nossa missão de
+          levar alegria às famílias por meio da adoção dos nossos pets.
         </p>
       </div>
 
-      <div>
-        <Link to="/login" className="flex justify-between items-center m-4">
-          Vamos comecar? <img src={dogIcon} alt="" />
+      <div className=" m-10">
+        <Link
+          to="/login"
+          className="flex justify-between items-center text-blue-500 hover:underline"
+        >
+          Vamos comecar? <img src={dogIcon} alt="" className="ml-2" />
         </Link>
       </div>
     </div>
