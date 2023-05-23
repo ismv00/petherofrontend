@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Login } from "./pages/Login";
 import Register from "./pages/Register";
 import Home from "./pages/Home";
+import Cases from "./pages/Cases";
 
 export function RoutesFile() {
   return (
@@ -11,6 +12,7 @@ export function RoutesFile() {
         <Route path="/" element={<Home />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/cases" element={<Cases />} />
       </Routes>
     </Router>
   );

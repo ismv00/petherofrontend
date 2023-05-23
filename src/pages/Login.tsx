@@ -1,8 +1,12 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FiLogOut } from "react-icons/fi";
 import logo from "../assets/logo.png";
 
 export function Login() {
+  const navigate = useNavigate();
+  function handleLogin() {
+    navigate("/cases");
+  }
   return (
     <div className=" w-[500px] h-auto bg-white bg-opacity-50 rounded-2xl mx-auto text-slate-700 ">
       <div className="w-full h-full p-4">
@@ -18,6 +22,7 @@ export function Login() {
           <form
             action=""
             className="w-full p-8 m-auto flex flex-col h-full rounded-xl"
+            onSubmit={handleLogin}
           >
             <div className="w-full">
               <input
@@ -28,7 +33,7 @@ export function Login() {
               />
               <input
                 type="password"
-                placeholder="Cadastre uma senha"
+                placeholder="Digite sua senha"
                 required
                 className="w-full mt-3 h-8 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
               />
