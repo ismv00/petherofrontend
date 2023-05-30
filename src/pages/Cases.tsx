@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+import { FiLogOut } from "react-icons/fi";
 import logo from "../assets/logo.png";
 
 export default function Cases() {
   return (
-    <div className=" w-[500px] h-auto bg-white bg-opacity-50 rounded-2xl mx-auto text-slate-700 ">
+    <div className=" w-[700px] h-auto bg-white bg-opacity-50 rounded-2xl mx-auto text-slate-700 ">
       <div className="w-full h-full p-4">
         <section className="flex justify-center items-center ">
           <img src={logo} alt="" className="mr-4 h-10" />
@@ -48,10 +50,16 @@ export default function Cases() {
               />
             </div>
 
-            <div>
+            <div className="flex justify-between items-center">
               <button className=" bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 mt-4 rounded focus:outline-none focus:ring focus:ring-blue-200">
                 Cadastrar
               </button>
+              <div className="flex justify-between items-center">
+                <Link to="/Profile" className="text-right text-sm mr-2">
+                  Voltar para os casos.
+                </Link>
+                <FiLogOut size={14} />
+              </div>
             </div>
           </div>
         </form>

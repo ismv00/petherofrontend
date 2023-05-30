@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 
 export default function Register() {
   return (
-    <div className=" w-[500px] h-auto bg-white bg-opacity-50 rounded-2xl mx-auto text-slate-700 ">
+    <div className=" w-[700px] h-auto bg-white bg-opacity-50 rounded-2xl mx-auto text-slate-700 ">
       <div className="w-full h-full p-4">
         <section className="flex flex-col items-center w-full">
           <div className="flex flex-col justify-center items-center m-4 text-center">
@@ -24,19 +24,19 @@ export default function Register() {
                 type="text"
                 placeholder="Digite seu nome completo"
                 required
-                className="mb-2 w-full h-8 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
+                className="mb-2 w-full h-10 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
               />
               <input
                 type="text"
                 placeholder="Seu melhor e-mail"
                 required
-                className="mt-3 w-full h-8 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
+                className="mt-3 w-full h-10 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
               />
               <input
                 type="text"
                 placeholder="Whatsapp"
                 required
-                className="w-full mt-3 h-8  p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
+                className="w-full mt-3 h-10  p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
               />
 
               <div className="flex justify-between items-center mt-3 w-full">
@@ -44,20 +44,20 @@ export default function Register() {
                   type="text"
                   placeholder="Cidade"
                   required
-                  className="h-8 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
+                  className="h-10 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
                 />
                 <input
                   type="text"
                   placeholder="UF"
                   required
-                  className="h-8 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
+                  className="h-10 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
                 />
               </div>
               <input
                 type="password"
                 placeholder="Cadastre uma senha"
                 required
-                className="w-full mt-3 h-8 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
+                className="w-full mt-3 h-10 p-3 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
               />
             </div>
 
