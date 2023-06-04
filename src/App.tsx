@@ -6,13 +6,13 @@ import { RoutesFile } from "./routes";
 function App() {
   return (
     <div
-      // style={{
-      //   backgroundImage: `url(${background})`,
-      //   backgroundSize: "cover",
-      //   backgroundPosition: "center",
-      //   backgroundRepeat: "no-repeat",
-      // }}
-      className="w-screen h-screen min-h-screen flex items-center justify-center bg-slate-200"
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+      className="w-auto min-h-screen items-center flex justify-center"
     >
       <RoutesFile />
     </div>

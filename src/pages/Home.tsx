@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className=" w-4/5 h-3/4 rounded-xl mx-auto bg-white text-slate-700 bg-opacity-50 flex flex-col justify-between items-center">
+    <div className=" w-4/5 min-h-3/4 rounded-xl mx-auto bg-white text-slate-700 bg-opacity-50 flex flex-col justify-around items-center">
       <div className="flex justify-center items-center p-1 mt-6 w-full">
         <img className="mr-6 w-20" src={logo} alt="" />
         <h1 className="text-6xl">
